@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- أيقونة التطبيق (المقدمة): هلال أبيض ونجمة صغيرة على خلفية خضراء -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- القرص الأبيض -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,54a26,26 0 1,0 52,0a26,26 0 1,0 -52,0z" />
+    <!-- قرص أخضر يقتطع جزءاً من القرص الأبيض فيتكوّن الهلال -->
+    <path
+        android:fillColor="#2E7D5B"
+        android:pathData="M41,50a22,22 0 1,0 44,0a22,22 0 1,0 -44,0z" />
+    <!-- نجمة صغيرة -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M63,50a4,4 0 1,0 8,0a4,4 0 1,0 -8,0z" />
+</vector>
